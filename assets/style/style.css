@@ -1,0 +1,52 @@
+/* Limpando formatação padrão */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* Formatação topo */
+#navbar{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#navbar-logo, #navbar-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    background-color: white;
+    width: 920px;
+    margin: 10px auto;
+}
+
+/* Formatação menu */
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Formatação geral */
+.navbar-logo-nome{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.branco{
+    color: white;
+}
