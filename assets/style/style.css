@@ -21,9 +21,41 @@ body{
 }
 
 #area-principal{
-    background-color: white;
     width: 920px;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #cccccc;
+    border-radius: 5px;
 }
 
 /* Formatação menu */
@@ -32,11 +64,19 @@ a{
 }
 
 a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#navbar a:link, #navbar a:visited{
     color: white;
     padding: 8px 12px;
 }
 
-a:hover{
+#navbar a:hover{
     color: #f7b600;
     background-color: white;
     border-radius: 5px;
@@ -47,6 +87,41 @@ a:hover{
     color: #4e4e4e;
     font-size: 2.5em;
 }
+
 .branco{
     color: white;
 }
+
+.titulo-postagem{
+    color: #f7b600;
+    font-size: 2em;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.data-postagem{
+    font-size: 0.9em;
+    color: black;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+img{
+    padding: 15px 0;
+}
+
+p{
+    font-size: 1em;
+}
+
